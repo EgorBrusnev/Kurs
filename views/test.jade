@@ -1,0 +1,7 @@
+html
+  head
+    title!= title
+  body
+    h1= blogs[0].name
+    - each blog, i in blogs
+      li= blog.id
